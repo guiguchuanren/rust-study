@@ -1,0 +1,21 @@
+# Rust 编译产物
+/target/
+
+# Cargo 相关
+Cargo.lock
+# 若为库项目，可注释掉 Cargo.lock（库项目无需提交 Cargo.lock）
+/.cargo/
+
+# IDE/编辑器配置
+/.vscode/
+/.idea/
+*.swp
+*.swo
+
+# 可执行文件
+*.exe
+*.dll
+*.pdb
+
+# 环境变量文件
+/.env
